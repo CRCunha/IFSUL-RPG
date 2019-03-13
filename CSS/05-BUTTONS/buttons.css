@@ -1,0 +1,29 @@
+@media only screen and (max-width: 800px) {
+    .buttons {
+        margin-top: 20px;
+        width: 100%;
+        height: 210px;
+        display: var(--responceDisplay);
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+        flex-wrap: wrap;
+    }
+    .buttons .btn {
+        width: 60%;
+        height: 65px;
+        background-color: var(--cor);
+        display: var(--responceDisplay);
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+    }
+    .buttons .btn a {
+        width: 100%;
+        height: 100%;
+        display: var(--responceDisplay);
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+    }
+    .buttons .btn a IMG {
+        width: 60%;
+    }
+}

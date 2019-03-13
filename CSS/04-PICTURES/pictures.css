@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+    .pictures {
+        width: 100%;
+        height: 300px;
+        display: var(--responceDisplay);
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+    }
+    .pictures .container {
+        width: 85%;
+        height: 85%;
+        background-color: var(--cor);
+        display: var(--responceDisplay);
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+        flex-wrap: wrap;
+    }
+    .pictures .container .img {
+        width: 50%;
+        height: 50%;
+        background-image: url("../../IMG/02-HEADER/Foto_Home.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}

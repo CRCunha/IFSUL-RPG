@@ -1,0 +1,19 @@
+@media only screen and (max-width:800px) {
+     :root {
+        --cor: #3f3f3f;
+        /* background-color: var(--cor); */
+        --responceDisplay: flex;
+        --responceContent: center;
+        --responceAlign: center;
+        --fonte: 'Dosis', sans-serif;
+    }
+    body {
+        background: #f7f7f7;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    body {
+        display: none;
+    }
+}
