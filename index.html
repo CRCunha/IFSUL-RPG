@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/01-NAV/nav.css">
     <link rel="stylesheet" type="text/css" href="CSS/02-HEADER/header.css">
     <link rel="stylesheet" type="text/css" href="CSS/03-MAIN/main.css">
+    <link rel="stylesheet" type="text/css" href="CSS/03-MAIN/main-controle.css">
     <link rel="stylesheet" type="text/css" href="CSS/04-PICTURES/pictures.css">
     <link rel="stylesheet" type="text/css" href="CSS/05-BUTTONS/buttons.css">
     <link rel="stylesheet" type="text/css" href="CSS/06-FOOTER/footer.css">
@@ -39,10 +40,22 @@
     </nav>
 
     <!-- 02 HEADER -->
-    <header></header>
+    <header>
+        <div class="headerContent"></div>
+        <div class="imgHeader">
+            <img id="img-header" src="IMG/02-HEADER/D&D1.png">
+        </div>
+    </header>
 
     <!-- 03 MAIN -->
     <main>
+        <div class="controle">
+            <div class="container">
+                <div class="controles" id="controle1" onclick="controle1()"></div>
+                <div class="controles" id="controle2" onclick="controle2()"></div>
+                <div class="controles" id="controle3" onclick="controle3()"></div>
+            </div>
+        </div>
         <div class="title">Bem Vindo Aventureiro</div>
         <div class="text">Fundado por um grupo de amigos com uma paixão imensa por RPG de mesa, o grupo de RPG do IFSUL campus Peloats, se reúne no CTG todas as segundas de manhâ e de tarde para jogar as aventuras mais épicas e as historias mais emocionantes. Tendo como
             sistema primário D&D 5 edição, o grupo possui mestres com anos de experiência, fazendo fácil a entrada dos jogadores mais iniciantes, até os mais experiêntes.<br><br> O que esta esperando? Pegue sua ficha e venha jogar conosco!
@@ -75,7 +88,7 @@
     </div>
     <!-- 06 FOOTER -->
     <footer>
-        <img src="IMG/06-FOOTER/D&D.png">
+
     </footer>
 </body>
 
