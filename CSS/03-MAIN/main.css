@@ -34,6 +34,9 @@
         width: 100%;
         height: 50px;
     }
+    main .img-title IMG {
+        width: 85%;
+    }
     main .img-divisa {
         width: 100%;
         height: 120px;
