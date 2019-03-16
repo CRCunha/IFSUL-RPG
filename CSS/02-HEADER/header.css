@@ -1,7 +1,7 @@
 @media only screen and (max-width: 800px) {
     header {
         width: 100%;
-        height: 350px;
+        height: 320px;
         background-image: url("../../IMG/02-HEADER/Foto_Home.jpg");
         background-position: center;
         background-size: cover;
@@ -9,7 +9,7 @@
     }
     header .headerContent {
         width: 100%;
-        height: 78%;
+        height: 80%;
         display: var(--responceDisplay);
         justify-content: var(--responceContent);
         align-items: var(--responceAlign);
@@ -19,6 +19,6 @@
         height: 20%;
     }
     header .imgHeader IMG {
-        width: 95%;
+        width: 100%;
     }
 }

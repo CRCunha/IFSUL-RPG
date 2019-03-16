@@ -2,12 +2,28 @@
     footer {
         margin-top: 30px;
         width: 100%;
-        height: 80px;
+        height: 70px;
         display: var(--responceDisplay);
-        justify-content: flex-start;
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+        background-color: var(--cor);
+    }
+    footer .footer-img {
+        width: 70%;
+        height: 100%;
+        display: var(--responceDisplay);
+        justify-content: space-between;
         align-items: var(--responceAlign);
     }
-    footer IMG {
-        width: 90%;
+    #logoIF {
+        width: 10%;
+    }
+    #logoADV {
+        margin-left: 66px;
+        width: 30%;
+    }
+    #logoCRT {
+        margin-left: 34px;
+        width: 30%;
     }
 }

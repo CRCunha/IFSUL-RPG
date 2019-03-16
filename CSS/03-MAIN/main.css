@@ -25,6 +25,15 @@
         font-size: 14pt;
         margin-bottom: 10px;
     }
+    main .img-title {
+        margin-top: -60px;
+        margin-block-end: 20px;
+        display: var(--responceDisplay);
+        justify-content: var(--responceContent);
+        align-items: var(--responceAlign);
+        width: 100%;
+        height: 50px;
+    }
     main .img-divisa {
         width: 100%;
         height: 120px;
@@ -33,6 +42,6 @@
         align-items: var(--responceAlign);
     }
     main .img-divisa IMG {
-        width: 20%;
+        width: 80%;
     }
 }

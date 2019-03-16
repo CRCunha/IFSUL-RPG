@@ -2,11 +2,16 @@
     .buttons {
         margin-top: 20px;
         width: 100%;
-        height: 210px;
+        height: 300px;
         display: var(--responceDisplay);
         justify-content: var(--responceContent);
         align-items: var(--responceAlign);
         flex-wrap: wrap;
+        background-image: url("../../IMG/05-BUTTONS/Logo_dnd.png");
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position-x: 0%;
+        background-position-y: center;
     }
     .buttons .btn {
         width: 60%;
@@ -25,5 +30,8 @@
     }
     .buttons .btn a IMG {
         width: 60%;
+    }
+    #btn2 {
+        margin-top: -80px;
     }
 }
