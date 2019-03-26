@@ -74,4 +74,16 @@
     #controleCards IMG {
         width: 45%;
     }
+    #card1 {
+        background-image: url("../../../IMG/CARDS/01.jpg");
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+    }
+    #card2 {
+        background-image: url("../../../IMG/CARDS/02.jpg");
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+    }
 }
