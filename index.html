@@ -2,101 +2,108 @@
 <html>
 
 <head>
-    <title>ILearning</title>
+    <title>IFSul RPG</title>
     <!--METAS-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="PodCast, RPG, IFSul">
     <meta name="language" content="PT-BR">
     <meta name="author" content="Nome">
     <meta name="robots" ontent="noindex">
     <meta name="googlebot" content="noindex">
     <!--LINKS CSS-->
-    <link rel="stylesheet" type="text/css" href="CSS/GERAL/GERAL.css">
-    <link rel="stylesheet" type="text/css" href="CSS/NORMALIZE/NORMALIZE.css">
-    <link rel="stylesheet" type="text/css" href="CSS/01-NAV/nav.css">
-    <link rel="stylesheet" type="text/css" href="CSS/02-HEADER/header.css">
-    <link rel="stylesheet" type="text/css" href="CSS/03-MAIN/main.css">
-    <link rel="stylesheet" type="text/css" href="CSS/03-MAIN/main-controle.css">
-    <link rel="stylesheet" type="text/css" href="CSS/04-PICTURES/pictures.css">
-    <link rel="stylesheet" type="text/css" href="CSS/05-BUTTONS/buttons.css">
-    <link rel="stylesheet" type="text/css" href="CSS/06-FOOTER/footer.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/GERAL/GERAL.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/NORMALIZE/NORMALIZE.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/01 - HEADER/header.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/02 - CONTROLE/controle.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/03 - MAIN/main.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/04 - GALERIA/galeria.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/05 - LINKS/links.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/06 - FOOTER/footer.css">
     <!--LINKS JS-->
-    <script src="JS/MAIN.js" type="text/javascript"></script>
+    <script type="text/JavaScript" src="JS/CONTROLE/controle.js"></script>
     <!--FONTES-->
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
     <!--FAV ICON-->
     <link rel="icon" type="image/png" href="#" />
 </head>
 
-<body>
-
-    <!-- 01 NAV -->
-    <nav class="responce">
-        <div class="container">
-            <img src="IMG/01-NAV/logo.png">
-            <img id="menu" src="IMG/01-NAV/menu.png">
-        </div>
-    </nav>
-
-    <!-- 02 HEADER -->
+<body onload="load()">
+    <!-- 01 -->
     <header>
-        <div class="headerContent"></div>
-        <div class="imgHeader">
-            <img id="img-header" src="IMG/02-HEADER/D&D1.png">
+        <div class="content-top"></div>
+        <div class="content-bot">
+            <div class="container">
+                <div class="data" id="data"></div>
+                <div class="title" id="title"></div>
+                <div class="text" id="text"></div>
+            </div>
         </div>
     </header>
 
-    <!-- 03 MAIN -->
-    <main>
-        <div class="controle">
-            <div class="container">
-                <div class="controles" id="controle1" onclick="controle1()"></div>
-                <div class="controles" id="controle2" onclick="controle2()"></div>
-                <div class="controles" id="controle3" onclick="controle3()"></div>
+    <!-- 02 -->
+    <div class="controle">
+        <div class="container">
+            <div class="btns">
+                <div class="left"><img onclick="left()" src="IMG/02 - CONTROLE/01.png"></div>
+                <div class="right"><img onclick="right()" src="IMG/02 - CONTROLE/02.png"></div>
             </div>
         </div>
-        <div class="title">Bem Vindo Aventureiro</div>
-        <div class="img-title">
-            <img src="IMG/03-MAIN/Dragaozinho.png">
+    </div>
+
+    <!-- 03 -->
+    <main>
+        <div class="title">
+            <div class="container">Bem Vindo Aventureiro</div>
         </div>
-        <div class="text">Fundado por um grupo de amigos com uma paixão imensa por RPG de mesa, o grupo de RPG do IFSUL campus Peloats, se reúne no CTG todas as segundas de manhâ e de tarde para jogar as aventuras mais épicas e as historias mais emocionantes. Tendo como
-            sistema primário D&D 5 edição, o grupo possui mestres com anos de experiência, fazendo fácil a entrada dos jogadores mais iniciantes, até os mais experiêntes.<br><br> O que esta esperando? Pegue sua ficha e venha jogar conosco!
+        <div class="sub">
+            <div class="container">IFSul RPG</div>
         </div>
-        <div class="img-divisa">
-            <img src="IMG/03-MAIN/logo.png">
+        <div class="text">
+            <div class="container">
+                Fundado por um grupo de amigos com uma paixão imensa por RPG de mesa, o grupo de RPG do IFSUL campus Peloats, se reúne no CTG todas as segundas de manhâ e de tarde para jogar as aventuras mais épicas e as historias mais emocionantes. Tendo como sistema
+                primário D&D 5 edição, o grupo possui mestres com anos de experiência, fazendo fácil a entrada dos jogadores mais iniciantes, até os mais experiêntes.<br><br> O que esta esperando? Pegue sua ficha e venha jogar conosco!
+            </div>
         </div>
     </main>
-    <!-- 04 PICTURES -->
-    <div class="pictures">
+
+    <!-- 04 -->
+    <div class="galeria">
         <div class="container">
-            <div class="img" id="img1"></div>
-            <div class="img" id="img2"></div>
-            <div class="img" id="img2"></div>
-            <div class="img" id="img2"></div>
+            <div class="cardIMG" id="cardIMG1">
+                <a href="#">
+                    <img src="IMG/04 - GALERIA/01.png">
+                </a>
+            </div>
+            <div class="cardIMG" id="cardIMG2">
+                <a href="PAGES/podcast.html">
+                    <img src="IMG/04 - GALERIA/02.png">
+                </a>
+            </div>
         </div>
     </div>
-    <!-- 05 BUTTONS -->
-    <div class="buttons">
-        <div class="btn" id="btn1">
-            <a href="#">
-                <img src="IMG/05-BUTTONS/DISCORD.png">
-            </a>
-        </div>
-        <div class="btn" id="btn2">
-            <a href="#">
-                <img src="IMG/05-BUTTONS/BEYOND.png">
-            </a>
+
+    <!-- 05 -->
+    <div class="galeria2">
+        <div class="container">
+            <div class="cardIMG" id="cardIMG1">
+                <a href="#">
+                    <img src="IMG/05 - LINKS/BEYOND.png">
+                </a>
+            </div>
+            <div class="cardIMG" id="cardIMG2">
+                <a href="#">
+                    <img src="IMG/05 - LINKS/DISCORD.png">
+                </a>
+            </div>
         </div>
     </div>
-    <!-- 06 FOOTER -->
-    <footer>
-        <div class="footer-img">
-            <img src="IMG/06-FOOTER/logoIF.png" id="logoIF">
-            <img src="IMG/06-FOOTER/logoADV.png" id="logoADV">
-            <img src="IMG/06-FOOTER/logoCRT.png" id="logoCRT">
-        </div>
-    </footer>
+
+    <!-- 06 -->
+    <footer></footer>
 </body>
 
 </html>
