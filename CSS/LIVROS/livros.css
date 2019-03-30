@@ -1,71 +1,12 @@
 @media only screen and (max-width: 800px) {
     .livros {
         margin-top: -280px;
-        margin-bottom: 20px;
+        margin-bottom: 400px;
         width: 100%;
         /* background-color: var(--verde); */
         display: var(--flex);
         justify-content: var(--justify);
         align-items: var(--align);
         flex-wrap: wrap;
-    }
-    .livros a {
-        width: 85%;
-        height: 130px;
-        text-decoration: none;
-        margin-bottom: 40px;
-    }
-    .livros a .cardLivro {
-        width: 100%;
-        height: 100%;
-        display: var(--flex);
-        box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.03);
-        background-color: #fff;
-        flex-wrap: wrap;
-        border-radius: 8px;
-    }
-    .livros .cardLivro .left {
-        width: 40%;
-        height: 100%;
-        display: var(--flex);
-        justify-content: var(--justify);
-        align-items: var(--align);
-        background-image: url("../../IMG/LIVROS/New-to-DD.jpg");
-        background-position: center;
-        background-size: cover;
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        /* background-color: blueviolet; */
-    }
-    .livros .cardLivro .left IMG {
-        width: 40%;
-    }
-    .livros .cardLivro .right {
-        width: 60%;
-        height: 100%;
-        /* background-color: red; */
-    }
-    .livros .cardLivro .right .title {
-        width: 100%;
-        height: 40%;
-        /* background-color: aquamarine; */
-        display: var(--flex);
-        justify-content: var(--justify);
-        align-items: var(--align);
-        font-family: var(--titulos);
-        color: var(--cor);
-        font-size: 14pt;
-    }
-    .livros .cardLivro .right .text {
-        width: 100%;
-        height: 60%;
-        /* background-color: var(--verde); */
-        display: var(--flex);
-        justify-content: var(--justify);
-        align-items: flex-top;
-        font-family: var(--fonte1);
-        color: var(--cor);
-        text-align: center;
-        font-size: 10pt;
     }
 }
