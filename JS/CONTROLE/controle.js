@@ -3,8 +3,8 @@ function load() {
     var title = document.getElementById("title");
     var text = document.getElementById("text");
 
-    data.innerHTML = "26/03/2019";
-    title.innerHTML = "Get Start";
+    data.innerHTML = "30/03/2019";
+    title.innerHTML = "New Title";
     text.innerHTML = "Praesent euismod lacus nibh, quis pretium turpis finibus id."
         // text.innerHTML = "Nesta data se inicía a criação de um novo Layout para o aplicativo."
 }
@@ -15,14 +15,14 @@ var y = 1;
 function left() {
 
     if (x == 0) {
-        data.innerHTML = "26/03/2019";
-        title.innerHTML = "Get Start";
-        text.innerHTML = "Praesent euismod lacus nibh, quis pretium turpis finibus id."
-            // text.innerHTML = "Nesta data se inicía a criação de um novo Layout para o aplicativo."
-    } else {
         data.innerHTML = "30/03/2019";
         title.innerHTML = "New Title";
         text.innerHTML = "Praesent euismod lacus nibh, quis pretium turpis finibus id."
+            // text.innerHTML = "Nesta data se inicía a criação de um novo Layout para o aplicativo."
+    } else {
+        data.innerHTML = "26/03/2019";
+        title.innerHTML = "Downlaod Android";
+        text.innerHTML = "Lançamos o site na verção de aplicativo android - <a href='https://drive.google.com/file/d/1N_cDg3erO02tWqmCT2CKle04fv13F7qa/view?usp=sharing'>Downlaod</a>"
     }
 
 }
@@ -30,12 +30,12 @@ function left() {
 function right() {
 
     if (y > 0) {
+        data.innerHTML = "26/03/2019";
+        title.innerHTML = "Downlaod Android";
+        text.innerHTML = "Lançamos o site na verção de aplicativo android - <a href='https://drive.google.com/file/d/1N_cDg3erO02tWqmCT2CKle04fv13F7qa/view?usp=sharing'>Downlaod</a>"
+    } else {
         data.innerHTML = "30/03/2019";
         title.innerHTML = "New Title";
-        text.innerHTML = "Praesent euismod lacus nibh, quis pretium turpis finibus id."
-    } else {
-        data.innerHTML = "26/03/2019";
-        title.innerHTML = "Get Start";
         text.innerHTML = "Praesent euismod lacus nibh, quis pretium turpis finibus id."
             // text.innerHTML = "Nesta data se inicía a criação de um novo Layout para o aplicativo"
     }
