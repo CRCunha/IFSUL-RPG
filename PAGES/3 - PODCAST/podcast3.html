@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IFSul RPG</title>
+    <!--METAS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="PodCast, RPG, IFSul">
+    <meta name="language" content="PT-BR">
+    <meta name="author" content="Nome">
+    <meta name="robots" ontent="noindex">
+    <meta name="googlebot" content="noindex">
+    <!--LINKS CSS-->
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/GERAL/GERAL.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/NORMALIZE/NORMALIZE.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/01 - HEADER/header.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/02 - CONTROLE/controle.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/03 - MAIN/main.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/P 01/01 CARDS/cards.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/06 - FOOTER/footer.css">
+    <link rel="stylesheet" type="text/CSS" href="../../CSS/PODCASTS/podcasts.css">
+    <!--LINKS JS-->
+    <script type="text/JavaScript" src="../../JS/CONTROLE/controle.js"></script>
+    <!--FONTES-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lalezar" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <!--FAV ICON-->
+    <link rel="icon" type="image/png" href="#" />
+</head>
+
+<body onload="load()">
+    <!-- 01 -->
+    <header>
+        <div class="content-top"></div>
+        <div class="content-bot">
+            <div class="container">
+                <div class="data" id="data"></div>
+                <div class="title" id="title"></div>
+                <div class="text" id="text"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 02 -->
+    <div class="controle">
+        <div class="container">
+            <div class="btns">
+                <div class="left"><img onclick="left()" src="../../IMG/02 - CONTROLE/01.png"></div>
+                <div class="right"><img onclick="right()" src="../../IMG/02 - CONTROLE/02.png"></div>
+            </div>
+        </div>
+    </div>
+    <div class="controle" id="controleCards">
+        <div class="container">
+            <div class="btns">
+
+                <a href="../podcast.html"><img src="../../IMG/02 - CONTROLE/03.png"></a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 03 -->
+    <main>
+        <div class="title">
+            <div class="container">Cinza e Colorido</div>
+        </div>
+        <div class="sub">
+            <div class="container">RPG - 02</div>
+        </div>
+    </main>
+
+    <!-- PODCAST 01-->
+    <div class="podcast">
+        <div class="soundcloud">
+            <iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314576169&color=%236cda98&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"></iframe>
+        </div>
+        <div class="texto">
+            <div class="container">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus sequi deleniti eaque rerum numquam ullam animi repellendus mollitia dolorum reiciendis autem hic accusamus, delectus error alias odit earum harum? Sint.
+                <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam soluta, animi libero voluptate iure sapiente cum incidunt, expedita, perferendis culpa laborum dolor? Et obcaecati quibusdam voluptatem a corporis incidunt dolorum?
+            </div>
+        </div>
+        <div class="comentario">
+            <div class="container">
+                <div class="title">Deixe seu Comentário</div>
+                <form form action="https://formspree.io/tsi.cristian@outlook.com" method="POST">
+                    <input type="text" name="comentario" autocomplete="off">
+                    <input type="submit">
+                    <input type="hidden" name="_next" value="https://crcunha.github.io/IFSUL-RPG/PAGES/2%20-%20PODCAST/podcast2.html">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- 06 -->
+    <footer></footer>
+</body>
+
+</html>

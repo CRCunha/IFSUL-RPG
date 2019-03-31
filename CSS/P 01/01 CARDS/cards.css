@@ -51,6 +51,7 @@
         /* background-color: blue; */
     }
     .cards a .card .bot .container {
+        margin-top: 50px;
         width: 85%;
         height: 100%;
         display: var(--flex);
@@ -82,6 +83,12 @@
     }
     #card2 {
         background-image: url("../../../IMG/CARDS/02.jpg");
+        background-position: center;
+        background-size: cover;
+        color: #fff;
+    }
+    #card3 {
+        background-image: url("../../../IMG/CARDS/03.jpg");
         background-position: center;
         background-size: cover;
         color: #fff;
