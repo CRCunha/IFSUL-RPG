@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 470px) {
     header {
         width: 100%;
         height: 400px;
@@ -62,5 +62,74 @@
         font-size: 12pt;
         font-family: var(--fonte1);
         border-radius: 8px;
+    }
+}
+
+@media (min-width: 500px) and (orientation: landscape) {
+    header {
+        width: 100%;
+        height: 300px;
+        background-image: url("../../IMG/01\ -\ HEADER/01.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    header .content-top {
+        width: 100%;
+        height: 45%;
+    }
+    header .content-bot {
+        width: 100%;
+        height: 55%;
+        display: var(--flex);
+        justify-content: var(--justify);
+        align-items: var(--align);
+    }
+    header .content-bot .container {
+        width: 90%;
+        height: 100%;
+        /* background-color: brown; */
+    }
+    header .content-bot .container .data {
+        display: var(--flex);
+        align-items: var(--align);
+        width: 100%;
+        height: 20%;
+        font-family: var(--fonte1);
+        color: #fff;
+        /* background-color: aqua; */
+    }
+    header .content-bot .container .title {
+        display: var(--flex);
+        align-items: var(--align);
+        width: 100%;
+        height: 30%;
+        font-family: var(--fonte2);
+        font-size: 28pt;
+        color: #fff;
+        /* background-color: blue; */
+    }
+    header .content-bot .container .text {
+        display: var(--flex);
+        align-items: var(--align);
+        width: 100%;
+        height: 25%;
+        font-family: var(--fonte1);
+        font-size: 10pt;
+        display: var(--flex);
+        align-items: var(--align);
+        flex-wrap: wrap;
+        color: #fff;
+        /* background-color: chartreuse; */
+    }
+    header .content-bot .container .text a {
+        padding: 10px 15px;
+        text-decoration: none;
+        margin-top: 15px;
+        color: #fff;
+        background-color: var(--verde);
+        font-size: 12pt;
+        font-family: var(--fonte1);
+        border-radius: 8px;
+        color: #fff;
     }
 }

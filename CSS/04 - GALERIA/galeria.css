@@ -1,4 +1,4 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 470px) {
     .galeria {
         width: 100%;
         height: 150px;
@@ -24,6 +24,38 @@
         align-items: center;
         width: 42%;
         height: 130px;
+        background-color: var(--verde);
+        border-radius: 8px;
+        box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.05);
+    }
+}
+
+@media (min-width: 500px) and (orientation: landscape) {
+    .galeria {
+        width: 100%;
+        height: 250px;
+        margin-top: -80px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        display: var(--flex);
+        justify-content: var(--justify);
+        align-items: var(--align);
+        /* background-color: aquamarine; */
+    }
+    .galeria .container {
+        width: 85%;
+        height: 100%;
+        display: var(--flex);
+        justify-content: space-around;
+        align-items: var(--align);
+    }
+    .galeria .container .cardIMG {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 42%;
+        height: 180px;
         background-color: var(--verde);
         border-radius: 8px;
         box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.05);
