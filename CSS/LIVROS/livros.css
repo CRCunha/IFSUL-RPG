@@ -1,12 +1,72 @@
 @media only screen and (max-width: 800px) {
+    #main-L {
+        margin-bottom: -390px;
+    }
     .livros {
-        margin-top: -280px;
-        margin-bottom: 400px;
+        margin-top: -200px;
         width: 100%;
+        height: 480px;
         /* background-color: var(--verde); */
         display: var(--flex);
         justify-content: var(--justify);
         align-items: var(--align);
         flex-wrap: wrap;
+    }
+    .livros .card-livros {
+        margin-bottom: 80px;
+        margin-top: 100px;
+        margin-left: 30px;
+        width: 100%;
+        height: 220px;
+        /* background-color: aquamarine; */
+        display: var(--flex);
+        justify-content: var(--justify);
+        align-items: var(--align);
+        flex-wrap: wrap;
+    }
+    .livros .card-livros a {
+        width: 45%;
+        height: 100%;
+    }
+    .livros .card-livros a .left {
+        width: 100%;
+        height: 100%;
+        background-color: var(--verde);
+        border-radius: 8px;
+        box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.08);
+    }
+    .livros .card-livros .right {
+        width: 55%;
+        height: 100%;
+        /* background-color: blue; */
+        display: var(--flex);
+        justify-content: var(--justify);
+        align-items: var(--align);
+    }
+    .livros .card-livros .right .container {
+        width: 100%;
+        height: 70%;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-left: -50px;
+        box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.05);
+    }
+    #b1 {
+        background-image: url("../../IMG/LIVROS/livro1.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    #b2 {
+        background-image: url("../../IMG/LIVROS/livro2.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    #b3 {
+        background-image: url("../../IMG/LIVROS/livro3.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    #livro2 {
+        margin-top: 50px;
     }
 }
