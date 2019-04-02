@@ -1,6 +1,9 @@
 @media only screen and (max-width: 800px) {
     #main-L {
-        margin-bottom: -390px;
+        margin-bottom: -410px;
+    }
+    #footer-L {
+        margin-top: -40px;
     }
     .livros {
         margin-top: -200px;
